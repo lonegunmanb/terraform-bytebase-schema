@@ -6,10 +6,10 @@ This repository contains the generated Go files for the Bytebase provider schema
 
 Each tag version of the Terraform Bytebase Provider has a corresponding tag in this repository. You can find the schema files for each provider version under the respective tag.
 
-e.g.: to use `aws`'s `0.0.9` schema, you could:
+e.g.: to use `bytebase`'s `0.0.9` schema, you could:
 
 ```shell
-$ go get github.com/lonegunmanb/terraform-aws-schema@v0.0.9
+$ go get github.com/lonegunmanb/terraform-bytebase-schema@v0.0.9
 ```
 
 Then you can read schemas like this:
